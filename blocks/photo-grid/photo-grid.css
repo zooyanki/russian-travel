@@ -1,9 +1,11 @@
+@import url(__item/photo-grid__item.css);
+
 .photo-grid {
     max-width: calc(100% - 96px);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     justify-items: center;
-    grid-gap: 16px 0;
+    grid-gap: 16px 16px;
     margin: 0 auto 0;
 }
 
@@ -25,7 +27,7 @@
     .photo-grid {
         max-width: calc(100% - 32px);
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-        grid-gap: 12px 0;
+        grid-gap: 12px 12px;
         align-items: center;
     }
 }
