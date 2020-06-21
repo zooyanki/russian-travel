@@ -9,7 +9,3 @@
     opacity: 0.7;
 }
 
-.cover__background:hover {
-    opacity: 0.2;
-    transition: linear 1ms;
-}
