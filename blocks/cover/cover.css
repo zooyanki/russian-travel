@@ -1,3 +1,4 @@
+@import url(__link/cover__link.css);
 @import url(__background/cover__background.css);
 @import url(__title/cover__title.css);
 @import url(__subtitle/cover__subtitle.css);
@@ -5,12 +6,10 @@
 .cover{
     margin: 0 auto 0;
     max-width: calc(100% - 96px);
-    display: grid;
-    grid-gap: 32px;
 }
 
 @media screen and (max-width: 1023px) {
-    .cover{
+    .cover {
         max-width: 100%;
     }
 }
