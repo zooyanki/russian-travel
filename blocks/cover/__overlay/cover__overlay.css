@@ -7,6 +7,11 @@
     height: 100%;
 }
 
+.cover__overlay+.cover__background {
+    opacity: 0.7;
+    transition: linear 1ms;
+    }
+
 .cover__overlay:hover+.cover__background {
     opacity: 0.2;
     transition: linear 1ms;

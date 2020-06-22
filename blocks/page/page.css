@@ -1,15 +1,10 @@
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
 .page {
     background-color: #2A2C2F;
     color: #FFFFFF;
-    width: 100%;    
+    max-width: 1280px;
+    min-width: 320px; 
     margin: 0 auto;
-    font-family: 'inter';
+    font-family: 'inter', 'Arial', sans-serif;
     font-style: normal;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
