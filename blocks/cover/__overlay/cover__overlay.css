@@ -12,10 +12,3 @@
     opacity: 0.8;
     transition: opacity 0.3s linear;
     }
-
-    
-.cover__overlay:hover+.cover__title {
-    opacity: 0.8;
-    transition: opacity 0.3s linear;
-    
-}
