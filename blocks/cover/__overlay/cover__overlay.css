@@ -1,18 +1,21 @@
 .cover__overlay {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    top: 0;
+    z-index: 3;
+    background-color: #2A2C2F;
+    grid-row: 1/3;
+    grid-column: 1;
     width: 100%;
     height: 100%;
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
-.cover__overlay+.cover__background {
-    opacity: 0.7;
-    }
-
-.cover__overlay:hover+.cover__background {
-    opacity: 0.2;
+.cover__overlay:hover{
+    opacity: 0.8;
     transition: opacity 0.3s linear;
     }
+
+    
+.cover__overlay:hover+.cover__title {
+    opacity: 0.8;
+    transition: opacity 0.3s linear;
+    
+}

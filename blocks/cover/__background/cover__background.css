@@ -1,10 +1,10 @@
 .cover__background {
     margin: auto;
+    
     z-index: 0;
     max-width: 100%;
     max-height: 740px;
     align-self: center;
     grid-column: 1;
     grid-row: 1/3;
-
 }
