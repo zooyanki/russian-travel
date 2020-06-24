@@ -19,3 +19,7 @@
         line-height: 1.14;
     }
 }
+
+.cover__subtitle:hover+.cover__overlay {
+    opacity: 0.8;
+}
